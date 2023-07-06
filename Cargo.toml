@@ -2,7 +2,7 @@
 name = "anarchy_foxy_guessing_game"
 version = "0.1.0"
 edition = "2021"
-authors = ["Astryda "Anarchy Foxy" Malinowska <astamalinowska@gmail.com>"]
+authors = ["Astryda 'Anarchy Foxy' Malinowska <astamalinowska@gmail.com>"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
