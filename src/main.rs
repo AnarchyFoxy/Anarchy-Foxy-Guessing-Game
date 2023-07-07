@@ -9,7 +9,7 @@ fn main() {
 
    let secret_number = rand::thread_rng().gen_range(1..101);
 
-   println!("The secret number is: {}", secret_number);
+   //println!("The secret number is: {}", secret_number);
 
    loop {
       println!("Please input your guess.");
@@ -30,6 +30,8 @@ fn main() {
       Ordering::Greater => println!("This is too big!"),
       Ordering::Equal => {
          println!("You win! Congrats!");
+         println!("Thank you for play and fun. Have a nice day.");
+         println!("\nThus spoke Anarchy Foxy C:");
          break;
          }
       }
